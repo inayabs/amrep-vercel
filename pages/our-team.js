@@ -1,6 +1,6 @@
 import Image from "next/image";
 //components
-import Layout from "../Layouts/Layout";
+import GuestLayout from "../layouts/GuestLayout";
 const people = [
   {
     name: "Byron Pantoja",
@@ -39,7 +39,7 @@ const people = [
 
 export default function OurTeam() {
   return (
-    <Layout>
+    <GuestLayout>
       <div className="bg-white">
         <div className="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
           <div className="space-y-12">
@@ -120,6 +120,6 @@ export default function OurTeam() {
           </div>
         </div>
       </div>
-    </Layout>
+    </GuestLayout>
   );
 }

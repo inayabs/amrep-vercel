@@ -1,12 +1,12 @@
 //components
-import Layout from "../Layouts/Layout";
+import GuestLayout from "../layouts/GuestLayout";
 import { Header } from "../components/sections/HeaderSectionComponent";
 
 const title = "1-Week Free Trial!"
 const description = "We are so confident that you will be thrilled with our work, new customers enjoy a 1 Week Free Trial* to test out the service"
 export default function Example() {
   return (
-    <Layout>
+    <GuestLayout>
       <Header title={title} description={description}/>
       <div className="bg-white">
         <div className="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
@@ -141,6 +141,6 @@ export default function Example() {
           </div>
         </div>
       </div>
-    </Layout>
+    </GuestLayout>
   );
 }

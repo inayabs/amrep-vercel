@@ -1,6 +1,6 @@
 import { Navigation } from "../components/sections/Navigation";
 import { Footer } from "../components/sections/Footer";
-const Layout = ({ children }) => {
+const GuestLayout = ({ children }) => {
   return (
     <>
       <Navigation />
@@ -9,4 +9,4 @@ const Layout = ({ children }) => {
     </>
   );
 };
-export default Layout;
+export default GuestLayout;

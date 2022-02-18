@@ -1,10 +1,10 @@
 import Image from "next/image";
 //components
-import Layout from "../layouts/Layout";
+import GuestLayout from "../layouts/GuestLayout";
 
 export default function Example() {
   return (
-    <Layout>
+    <GuestLayout>
       <div className="relative bg-white">
         <div className="lg:absolute lg:inset-0">
           <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
@@ -243,6 +243,6 @@ export default function Example() {
           </div>
         </div>
       </div>
-    </Layout>
+    </GuestLayout>
   );
 }

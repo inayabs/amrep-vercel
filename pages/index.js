@@ -1,5 +1,5 @@
 //components
-import Layout from "../layouts/Layout";
+import GuestLayout from "../layouts/GuestLayout";
 import { CtaSectioncomponent } from "../components/sections/CtaSectionComponent";
 import {
   FeatureSectionComponent,
@@ -15,13 +15,13 @@ export default function Home() {
     "New clients enjoy 1 Week of Free Processing as a trial before you commit!";
   return (
     <div>
-      <Layout>
+      <GuestLayout>
         <CtaSectioncomponent />
         <LogoCloudComponent />
         <FeatureSectionComponent />
         <GradientFeatureSectionComponent />
         <StatsComponent />
-      </Layout>
+      </GuestLayout>
     </div>
   );
 }

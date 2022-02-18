@@ -1,6 +1,6 @@
 
 //components
-import Layout from "../layouts/Layout";
+import GuestLayout from "../layouts/GuestLayout";
 import { PricingPlanComponent } from "../components/sections/PricingPlanComponent";
 import { LogoCloudComponentOnBrand } from "../components/sections/LogoCloudComponent";
 import { FaqComponent } from "../components/sections/FaqComponent";
@@ -9,7 +9,7 @@ const title = "Video Editing"
 export default function VideoEditing() {
   return (
     <>
-      <Layout>
+      <GuestLayout>
         <div className="bg-white">
           {/* Pricing with four tiers and toggle */}
           <PricingPlanComponent title={title}/>
@@ -18,7 +18,7 @@ export default function VideoEditing() {
           {/* FAQ offset */}
           <FaqComponent />
         </div>
-      </Layout>
+      </GuestLayout>
     </>
   );
 }
