@@ -1,21 +1,12 @@
-
-//components
 import GuestLayout from "../layouts/GuestLayout";
-import { PricingPlanComponent } from "../components/sections/PricingPlanComponent";
-import { LogoCloudComponentOnBrand } from "../components/sections/LogoCloudComponent";
+import ImageComparison from "../components/ImageComparison";
 
-const title = 'Packages'
-export default function Packages() {
+export default function Showcase() {
   return (
-    <>
-      <GuestLayout>
-        <div className="bg-white">
-          {/* Pricing with four tiers and toggle */}
-          <PricingPlanComponent title={title}/>
-          {/* Logo cloud on brand */}
-          <LogoCloudComponentOnBrand />
-        </div>
-      </GuestLayout>
-    </>
+    <GuestLayout>
+      <div className="bg-gray-50">
+        <ImageComparison />
+      </div>
+    </GuestLayout>
   );
 }
